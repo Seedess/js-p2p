@@ -1,34 +1,16 @@
-# Seedess JavaScript / TypeScript SDK
+# Seedess JavaScript client (js-p2p)
 
-Official JavaScript / TypeScript client for the [Seedess API](https://seedess.com/docs/api/).
+Client-side wrapper for Seedess peer-assisted playback.
 
-> **Status:** planned for `0.1.0`. The API contract is live; this client is next.
+> **Status:** planned. Use the player packages today:
+>
+> ```bash
+> npm install @seedess/p2p
+> ```
 
-## What it covers
+The player packages are [`@seedess/p2p`](https://github.com/Seedess/p2p),
+[`@seedess/hls-p2p`](https://github.com/Seedess/hls-p2p),
+[`@seedess/videojs-p2p`](https://github.com/Seedess/videojs-p2p) and
+[`@seedess/dash-p2p`](https://github.com/Seedess/dash-p2p).
 
-- create and refresh streams
-- read offload, CDN and P2P metrics
-- send per-session telemetry
-- manage server-side API keys and per-stream public tokens
-
-## Install (planned)
-
-```bash
-npm install @seedess/client
-```
-
-## Contract
-
-Generated from `contracts/api.json` in the Seedess monorepo and checked against the same
-JSON Schemas. See the [API reference](https://seedess.com/docs/api/) and
-[Libraries](https://seedess.com/docs/libraries/).
-
-## Links
-
-- Docs: https://seedess.com/docs/
-- API: https://seedess.com/docs/api/
-- Issues: https://github.com/Seedess/js/issues
-
-## License
-
-MIT.
+Docs: https://seedess.com/docs/libraries/
